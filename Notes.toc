@@ -8,4 +8,3 @@
 \contentsline {subsection}{\numberline {1.4}Marking positions}{1}{subsection.1.4}%
 \contentsline {subsubsection}{\numberline {1.4.1}Net Delta}{1}{subsubsection.1.4.1}%
 \contentsline {subsubsection}{\numberline {1.4.2}Pricing out}{1}{subsubsection.1.4.2}%
-\contentsline {section}{\numberline {2}LPG}{1}{section.2}%
