@@ -46,22 +46,40 @@ breaklines=true
 \tableofcontents
 
 
-\section{Derivatives}
+\section{General/Derivatives}
 \subsection{Futures}
-testtest
 \subsection{Swaps}
-
-
-\subsection{Composite positions}
-
-\subsubsection{Time/Calendar Spreads}
+\subsection{Strategies}
+\subsubsection{Calendar/Timespreads}
+\subsubsection{Flys}
 \subsubsection{Boxes}
 
+\section{PnL calculation}
+\subsection{Calculating PL change}
+\subsection{Alternative ways to calculate PL change}
+\subsubsection{Delta}
+\subsection{Unit conversion}
 
-\subsection{Marking positions}
+Typically required when calculating MTM of a position when volumne unit of measure (UoM) is different from our marks/price unit of measure. Typically this happens in the cases of where we want to reflect product spread of 2 instruments with different volume UoM as a single positon. For example, we want to show a gasoil East/West (E/W) spread. Gasoil east (MOPS 10PPM Gasoil) default UoM is in bbls while Gasoil west (IPE Gasoil) default UoM is in mt. 
 
-\subsubsection{Net Delta}
-\subsubsection{Pricing out}
+\subsubsection{General way of doing unit conversion}
+
+unit conversion for volume is quite simple if  $$1mt = 7.45bbl$$ then to convert 50kb volume into its mts equivalent would be.
+
+\begin{equation*}
+    \begin{aligned}
+        1bbl & = \frac{1}{7.45}mt \\ 
+        50000bbl & = 50000 \times \frac{1}{7.45}mt \approx 6,711.4mt
+    \end{aligned}    
+\end{equation*}
+
+
+In general 
+
+
+
+\subsubsection{Unit conversion example}
+\subsection{Combining positions}
 
 
 
