@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.27)  29 JUN 2025 22:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.27)  6 JUL 2025 22:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/admin/Desktop/Commodities_Notes/Notes
-(c:/Users/admin/Desktop/Commodities_Notes/Notes.tex
+**c:/Users/admin/Documents/Projects/Commodities_Notes/Notes
+(c:/Users/admin/Documents/Projects/Commodities_Notes/Notes.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-05-26>
 (c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -428,21 +428,21 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-05-26>
  ***********
 Package rerunfilecheck Info: File `Notes.out' has not changed.
-(rerunfilecheck)             Checksum: 0098D0B6238FEE1FBAB41A479B99D30D;2159.
+(rerunfilecheck)             Checksum: 2AB32E6FE053439F5990A63370FAF23D;2249.
  ) 
 Here is how much of TeX's memory you used:
- 13078 strings out of 469367
- 202086 string characters out of 5472564
- 644558 words of memory out of 5000000
- 41242 multiletter control sequences out of 15000+600000
+ 13080 strings out of 469367
+ 202149 string characters out of 5472564
+ 644555 words of memory out of 5000000
+ 41243 multiletter control sequences out of 15000+600000
  634688 words of font info for 71 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 69i,7n,79p,552b,467s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Notes.pdf (2 pages, 93788 bytes).
+ 69i,7n,79p,563b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Notes.pdf (2 pages, 102637 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
- 19 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 144 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 500000)
+ 129 words of extra memory for PDF output out of 10000 (max. 10000000)
 

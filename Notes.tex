@@ -56,15 +56,45 @@ breaklines=true
 
 \section{PnL calculation}
 \subsection{Calculating PL change}
-\subsection{Alternative ways to calculate PL change}
-\subsubsection{Delta}
+
+\subsection{Delta}
+
+In some sense a reflection of market exposure to a underlying instrument/index/reference price, expressed as a quantity.
+
 \subsection{Unit conversion}
 
-Typically required when calculating MTM of a position when volumne unit of measure (UoM) is different from our marks/price unit of measure. Typically this happens in the cases of where we want to reflect product spread of 2 instruments with different volume UoM as a single positon. For example, we want to show a gasoil East/West (E/W) spread. Gasoil east (MOPS 10PPM Gasoil) default UoM is in bbls while Gasoil west (IPE Gasoil) default UoM is in mt. 
+In general, we either want to convert the volume from one unit of measure to another unit of measure or to convert the price per $x$ unit to price per $y$ unit.
 
-\subsubsection{General way of doing unit conversion}
+\subsubsection{Volume unit conversion}
 
-unit conversion for volume is quite simple if  $$1mt = 7.45bbl$$ then to convert 50kb volume into its mts equivalent would be.
+Let $x$ and $y$ be different unit of measures for some arbitrary product and their conversion ratio is show below
+
+$$
+x = \alpha y
+$$
+
+In general if we want to convert $V$ volume of $y$ into its equivalent $x$ volume, we can use the following method. 
+
+1. Express $y$ in terms of $x$
+
+
+\begin{equation*}
+    \begin{aligned}
+        x &= \alpha y \\
+        y &= \frac{x}{\alpha}
+    \end{aligned}    
+\end{equation*}
+
+2. Multiply the expression by volume $V$ 
+
+$$
+V_y = \frac{Vx}{\alpha}
+$$
+
+
+\textbf{Example : Volume unit conversion example}
+
+Gasoil has the below conversion ratio $$1mt = 7.45bbl$$ then to convert 50kb of gasoil into its mts equivalent would be.
 
 \begin{equation*}
     \begin{aligned}
@@ -73,16 +103,23 @@ unit conversion for volume is quite simple if  $$1mt = 7.45bbl$$ then to convert
     \end{aligned}    
 \end{equation*}
 
+\subsubsection{price unit conversion}
 
-In general 
+let
 
+
+
+\textbf{Example : Price unit conversion example}
 
 
 \subsubsection{Unit conversion example}
+
+
+
 \subsection{Combining positions}
 
 
-
+\subsection{Alternative ways to calculate PL change}
 
 
 
